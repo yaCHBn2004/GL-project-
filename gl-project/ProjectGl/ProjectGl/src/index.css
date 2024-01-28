@@ -1,0 +1,205 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&family=Inter:wght@700&family=Istok+Web:wght@700&family=Poppins:wght@300;500;700&family=Quicksand:wght@700&display=swap');
+.f1{
+    font-family: 'Inria Sans';
+    font-weight: 700;
+    font-size: 1rem;
+}
+.f11{
+  font-family: 'Inria Sans';
+  font-weight: 700;
+  
+}
+.f2{
+    font-family: 'Istok Web    ';
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.f3{
+    font-family: 'Istok Web    ';
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.f33{
+  font-family: 'Istok Web    ';
+  font-weight: 700;
+}
+.f4{
+    font-family: 'Inria Sans';
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.f5{
+        font-family: 'Inria Sans';
+        font-weight: 400;
+        font-size: 0.7rem;
+     
+}
+
+.f6{
+  font-family: 'Poppins';
+    font-weight: 700;
+}
+.f66{
+  font-family: 'Poppins';
+    font-weight: 700;
+}
+.f7{
+  font-family: 'Poppins';
+    font-weight: 300;
+}
+.f8{
+  font-family: 'Poppins';
+    font-weight: 500;
+}
+.f9{
+  font-family: 'Quicksand';
+  font-weight: 700;
+}
+.f10{
+  font-family: 'inter';
+  font-weight: 700;
+}
+  .slide {
+    font-size: 1.5rem;
+    
+    text-align: center;
+    height:28vh;
+    width: 400px;
+    background-color: #DDE2E5;
+    border-radius: 8px;
+    position: relative;
+    left: 19%;
+    top: 22%;
+  }
+ .swiper {
+    height: 60vh;
+    display: flex;
+ } 
+  .swiper-container {
+    height: 20vh;
+  }
+  
+  .swiper-pagination {
+    bottom: 0;
+  }
+  
+ .swiper .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+    background: #D9D9D9
+    ;
+    border: 1px solid #68b8ff;
+    opacity: 1;
+  }
+  
+ .swiper .swiper-pagination-bullet-active {
+    width: 9px;
+    height: 9px;
+    transition: width 0.5s;
+    border-radius: 5px;
+    background: #3498DB    ;
+    border: 1px solid transparent;
+  }
+  .swiper .swiper-button-next{
+    color: #FFFFFF    ;
+  }
+  
+  .swiper .swiper-button-prev{
+    color: #FFFFFF    ;
+  }
+  .mm .swiper .swiper-button-prev{
+    color: #556773    ;
+    
+  }
+  .mm .swiper .swiper-button-next{
+    color: #556773    ;
+  }
+
+  .mm .slide{
+  font-size: 1.5rem;
+    
+  text-align: center;
+  height:35vh;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+  left: 19%;
+  top: 22%;
+}
+.mm .swiper {
+  padding: 3%;
+}
+.mm .swiper .swiper-slide {
+ 
+  height:35vh;
+  width: 250px;
+  
+}
+.mm .swiper {
+  padding: 3%;
+}
+
+/* styles.css */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px); /* Ajuste le flou selon tes préférences */
+  opacity: 0;
+  visibility: hidden;
+  transition: backdrop-filter 0.3s, opacity 0.3s, visibility 0.3s;
+}
+
+.backdrop.blurred {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.navbar.expanded {
+  height: 20vh; /* Ajuste la hauteur selon tes besoins */
+}
+
+.blur {
+  filter: blur(5px); /* Ajuste le flou selon tes préférences */
+}
+
+.blurred {
+  /* ... autres styles pour la version floue */
+  backdrop-filter: blur(5px); /* Ajuste le flou selon tes préférences */
+  opacity: 1;
+  visibility: visible;
+}
+
+.nv{
+  height:28vh;
+ background-color:#31404A;
+ opacity: 1;
+ z-index: 90;
+ 
+}
+.lg{
+  height: 4vh;
+
+}
+
+/* Ajoute ces styles dans ton fichier CSS ou Tailwind CSS */
+body.search-visible {
+  overflow: hidden;
+}
+.zz{
+z-index: 100;
+}
+.bgg{
+  background-image: url('./img/bghome.svg');
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

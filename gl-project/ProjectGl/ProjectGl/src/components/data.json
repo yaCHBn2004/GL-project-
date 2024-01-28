@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "nom": "01 adrar",
+      "communes": [
+        {"id": 101, "nom": "alger"},
+        {"id": 102, "nom": "beraki"},
+        {"id": 103, "nom": "el harach"}
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Oran",
+      "communes": [
+        {"id": 201, "nom": "oran"},
+        {"id": 202, "nom": " batioua"},
+        {"id": 203, "nom": "hamri"}
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Mostaganem",
+      "communes": [
+        {"id": 301, "nom": "salamandre"},
+        {"id": 302, "nom": "sablete"},
+        {"id": 303, "nom": "sayada"}
+      ]
+    }
+  ]
+    
