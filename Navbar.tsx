@@ -18,8 +18,8 @@ function Navbar() {
 
 
   return (
-    <div className="relative h-[8vh] w-full z-50 ">
-      <div className=" flex flex-row justify-between fixed h-[8vh] w-full bg-[#31404A] opacity-75 p-[1%]  /*backdrop ${isExpanded ? 'blurred' : ''}*/ ">
+    <div className="relative h-[1px] w-full z-50 ">
+      <div className=" flex flex-row justify-between fixed h-[8vh] w-full bg-[#31404A] opacity-95 p-[1%]  /*backdrop ${isExpanded ? 'blurred' : ''}*/ ">
         <img src={logo} className="w-[5%]" />
         <div className="f1 flex flex-row justify-between text-[#FFFFFF] w-[50%]">
           <a href="">Home</a>

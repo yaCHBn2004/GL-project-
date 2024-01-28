@@ -22,8 +22,9 @@ import { Navigation } from "swiper/modules";
 import Card from "./Card";
 function About() {
   return (
-    <div className="h-[60vh] bg-[#0C66A2] my-[8vh] p-[2%]">
-        
+    <div className="h-[70vh] bg-[#25323B] my-[8vh] p-[2%]">
+              <p className='text-5xl text-[#fff] text-center my-2 f8 '>Meilleur avocat en Algerie</p>
+
       <Swiper
         slidesPerView={2}
         spaceBetween={-10}

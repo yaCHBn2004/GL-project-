@@ -20,9 +20,8 @@ function Navbar2() {
   };
   const [selectedWilaya, setSelectedWilaya] = useState("");
   const [selectedCommune, setSelectedCommune] = useState(""); // Correction ici
-  const [communes, setCommunes] = useState([]);
-
-  const handleWilayaChange = (event) => {
+  const [communes, setCommunes] = useState([] as Array<{ id: number; nom: string; }>);
+  const handleWilayaChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedWilaya = event.target.value;
     setSelectedWilaya(selectedWilaya);
 

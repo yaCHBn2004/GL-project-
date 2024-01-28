@@ -4,7 +4,7 @@
 // import HomeB from "./HomeB";
 // import Login from "./Login";
 // import Navbar from "./Navbar";
-import h from "../img/foo.svg";
+import h from "../img/logo.svg";
 
 function Footer() {
   return (
